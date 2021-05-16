@@ -4,6 +4,7 @@ import fue from "../images/fue.png";
 import dan from "../images/dan.png";
 import sew from "../images/sew.png";
 import com from "../images/com.png";
+import ele from "../images/ele.png";
 
 function Advantage() {
   return (
@@ -11,6 +12,10 @@ function Advantage() {
       <div className="banner">
         <div className="adv">
           <h2>ADVANTAGES</h2>
+          <div>
+            <img src={ele} alt="" />
+            <p>Production of electricity</p>
+          </div>
           <div>
             <img src={fue} alt="" />
             <p>Cheap production cost of fuel</p>

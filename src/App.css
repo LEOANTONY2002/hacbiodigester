@@ -457,6 +457,34 @@ p {
   align-items: flex-end;
   z-index: -1;
 }
+.founder {
+  position: absolute;
+  color: whitesmoke;
+  z-index: 100;
+  margin-top: -150px;
+  padding: 20px;
+}
+.f-head {
+  display: flex;
+  align-items: center;
+  color: #111111;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.f-head > p:last-of-type {
+  width: 150px;
+  border-bottom: 4px solid #1b1b1b;
+  margin-top: -13px;
+  margin-left: 15px;
+}
+.f-body {
+  margin-left: 170px;
+}
+.f-body > p {
+  font-weight: 600;
+  color: #fcc204;
+}
 
 .menu {
   position: fixed;
@@ -534,14 +562,6 @@ a {
   display: none;
 }
 
-.founder {
-  color: whitesmoke;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: 100;
-}
-
 @media (max-width: 900px) {
   .pg1-desc {
     max-width: 80vw;
@@ -591,6 +611,23 @@ a {
   .inps > input,
   .inps > textarea {
     font-size: 22px;
+  }
+  .pg6 {
+    height: 140vh;
+  }
+  .svg {
+    margin-top: 40vh;
+    align-items: flex-start;
+  }
+  .founder {
+    position: absolute;
+    margin-bottom: 10vh;
+  }
+  .f-head > p {
+    color: whitesmoke;
+  }
+  .f-head > p:last-of-type {
+    border-bottom: 4px solid whitesmoke;
   }
 }
 

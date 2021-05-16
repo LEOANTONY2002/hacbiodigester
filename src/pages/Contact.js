@@ -71,7 +71,7 @@ function Contact() {
           <div className="f-body">
             <p>Hafila Khairun S</p>
             <p>Alphin Punitha A</p>
-            <p>rithra Iswarya D</p>Cha
+            <p>Charithra Iswarya D</p>
           </div>
         </div>
       </div>
